@@ -7,6 +7,8 @@ public class Main {
         Character queen = new Queen();
         queen.performWeaponBehavior();
         queen.fight();
-        queen.weaponBehavior.useWeapon();
+        Character knight = new Knight();
+        knight.performWeaponBehavior();
+        knight.fight();
     }
 }
